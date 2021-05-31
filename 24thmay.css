@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color:gray;
+    font-family: 'Pattaya', sans-serif;
+}
+.container{
+    max-width: 1000px;
+    background-color: cyan;
+    margin: 0 auto;
+    padding: 20px;
+}
+.profile-pic{
+    width: 1oopx;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.header-bio{
+    padding: 20px;
+   float: left;
+ 
+  
+}
+.header-contact{
+    float: right;
+}
+.header-contact a{
+    text-decoration: none;
+    padding: 40px;
+    font-weight: bold;
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color: sandybrown;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: black solid 5px;
+    border-bottom: none;
+    margin: 20px auto;
+    width: 100%;
+}
+.personal-info{
+
+}
+.content{
+
+}
+.left-div{
+width: 30%;
+float: left;margin:10px auto;
+}
+.right-div{
+width: 70%;
+float: right;
+margin:10px auto;
+}
+#common-div{
+    clear: both;
+}
+#common-hr{
+    width: 100%;
+    border: black solid 2px;
+    border-bottom: none;
+    margin: 20px auto;
+}
+.bam-div{
+    float: left;
+}
+.dan-div{
+    float: right;
+}
+.footer{
+    background-color: black;
+    text-align: center;
+color: white;
+}
+.footer a{
+    text-decoration: none;
+    margin: 5px 20px;
+    color: yellow;
+}
